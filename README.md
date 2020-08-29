@@ -3,7 +3,7 @@ This repository holds the code for my master thesis entitles "The Association of
 
 ## BEC-Pro
 
-We created the **Bias Evaluation Corpus with Professions (BEC-Pro)**. This corpus is designed to measure gender bias for different groups of professions and contains English and German sentences built from templates.
+We created the **Bias Evaluation Corpus with Professions (BEC-Pro)**. This corpus is designed to measure gender bias for different groups of professions and contains English and German sentences built from templates. The corpus files are `BEC-Pro_EN.tsv` for English and `BEC-Pro_DE.tsv` for German.
 
 ## Research on gender bias in BERT
 
@@ -16,9 +16,9 @@ usage: main.py [-h] --lang LANG --eval EVAL [--tune TUNE] --out OUT [--model MOD
   --lang LANG    provide language, either EN or DE
   --eval EVAL    .tsv file with sentences for bias evaluation (BEC-Pro or transformed EEC)
   --tune TUNE    .tsv file with sentences for fine-tuning (GAP flipped)
-  --out OUT      output directory + filename
+  --out OUT      output directory and start of filename
   --model MODEL  which BERT model to use 
-  --batch BATCH  fix batch-size for fine-tuning
+  --batch BATCH  fix batch-size for fine-tuning 
   --seed SEED
 ```
 
