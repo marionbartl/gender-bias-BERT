@@ -1,2 +1,32 @@
 # Gender bias in BERT
-This repository holds the code for my master thesis entitles "The Association of Gender Bias with BERT - Measuring, Mitigating and Cross-lingual portability", written at the University of Groningen and the University of Malta. 
+This repository holds the code for my master thesis entitles "The Association of Gender Bias with BERT - Measuring, Mitigating and Cross-lingual portability", written at the University of Groningen and the University of Malta. The thesis was supervised by Malvina Nissim and Albert Gatt. 
+
+## BEC-Pro
+
+We created the **Bias Evaluation Corpus with Professions (BEC-Pro)**. This corpus is designed to measure gender bias for different groups of professions and contains English and German sentences built from templates.
+
+## Research on gender bias in BERT
+
+In the code folder, run `main.py`, which requires the following arguments:
+```
+usage: main.py [-h] --lang LANG --eval EVAL [--tune TUNE] --out OUT [--model MODEL] [--batch BATCH] [--seed SEED]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --lang LANG    provide language, either EN or DE
+  --eval EVAL    .tsv file with sentences for bias evaluation
+  --tune TUNE    file with sentences for fine-tuning
+  --out OUT      output directory + filename
+  --model MODEL  which BERT model to use
+  --batch BATCH  fix batch-size for fine-tuning
+  --seed SEED
+```
+
+For English, run:
+```
+python3 main.py --lang EN --eval ../BEC-Pro/BEC-Pro_EN.tsv --tune ../data/gap_flipped.tsv --out ../data/results
+```
+For German, run:
+```
+python3 main.py --lang DE --eval ../BEC-Pro/BEC-Pro_DE.tsv --out ../data/results
+```
