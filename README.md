@@ -5,7 +5,7 @@ This repository holds the code for my master thesis entitles "The Association of
 
 We created the **Bias Evaluation Corpus with Professions (BEC-Pro)**. This corpus is designed to measure gender bias for different groups of professions and contains English and German sentences built from templates. The corpus files are `BEC-Pro_EN.tsv` for English and `BEC-Pro_DE.tsv` for German.
 
-## Research on gender bias in BERT
+## Research
 
 In the code folder, run `main.py`, which requires the following arguments:
 ```
