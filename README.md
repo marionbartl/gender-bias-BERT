@@ -3,6 +3,7 @@ This repository holds the code for my master thesis entitled "The Association of
 ```
 @inproceedings{bartl2020unmasking,
   title={Unmasking Contextual Stereotypes: Measuring and Mitigating BERT's Gender Bias},
+  editor={Costa-jussà, Marta R. and Hardmeier, Christian and Webster, Kellie and Radford, Will}
   author={Bartl, Marion and Nissim, Malvina and Gatt, Albert},
   booktitle={Proceedings of the Second Workshop on Gender Bias in Natural Language Processing},
   year={2020}
