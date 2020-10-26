@@ -1,11 +1,20 @@
 # Gender bias in BERT
-This repository holds the code for my master thesis entitles "The Association of Gender Bias with BERT - Measuring, Mitigating and Cross-lingual portability", written at the University of Groningen and the University of Malta. The thesis was supervised by Malvina Nissim and Albert Gatt. 
+This repository holds the code for my master thesis entitled "The Association of Gender Bias with BERT - Measuring, Mitigating and Cross-lingual portability", written at the University of Groningen and the University of Malta and supervised by Prof. Malvina Nissim and Prof. Albert Gatt. The thesis work is being published under the title "Unmasking Contextual Stereotypes: Measuring and Mitigating BERT's Gender Bias" as part of the 2nd Workshop on Gender Bias in Natural Language Processing at COLING 2020.
+```
+@inproceedings{bartl2020unmasking,
+  title={Unmasking Contextual Stereotypes: Measuring and Mitigating BERT's Gender Bias},
+  author={Bartl, Marion and Nissim, Malvina and Gatt, Albert},
+  booktitle={Proceedings of the Second Workshop on Gender Bias in Natural Language Processing},
+  year={2020}
+}
+
+```
 
 ## BEC-Pro
 
 We created the **Bias Evaluation Corpus with Professions (BEC-Pro)**. This corpus is designed to measure gender bias for different groups of professions and contains English and German sentences built from templates. The corpus files are `BEC-Pro_EN.tsv` for English and `BEC-Pro_DE.tsv` for German.
 
-## Research
+## Code
 
 In the code folder, run `main.py`, which requires the following arguments:
 ```
