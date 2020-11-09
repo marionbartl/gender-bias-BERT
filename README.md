@@ -1,5 +1,5 @@
 # Gender bias in BERT
-This repository holds the code for my master thesis entitled "The Association of Gender Bias with BERT - Measuring, Mitigating and Cross-lingual portability", written at the University of Groningen and the University of Malta and supervised by Prof. Malvina Nissim and Prof. Albert Gatt. The thesis work is being published under the title "Unmasking Contextual Stereotypes: Measuring and Mitigating BERT's Gender Bias" as part of the 2nd Workshop on Gender Bias in Natural Language Processing at COLING 2020.
+This repository holds the code for my master thesis entitled "The Association of Gender Bias with BERT - Measuring, Mitigating and Cross-lingual portability", written at the University of Groningen and the University of Malta and supervised by Prof. Malvina Nissim and Prof. Albert Gatt. The thesis work is being published under the title "Unmasking Contextual Stereotypes: Measuring and Mitigating BERT's Gender Bias" as part of the 2nd Workshop on Gender Bias in Natural Language Processing at COLING 2020. ArXiv preprint: https://arxiv.org/abs/2010.14534
 ```
 @inproceedings{bartl2020unmasking,
   title={Unmasking Contextual Stereotypes: Measuring and Mitigating BERT's Gender Bias},
