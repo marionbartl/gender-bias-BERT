@@ -39,8 +39,8 @@ python3 main.py --lang EN --eval ../BEC-Pro/BEC-Pro_EN.tsv --tune ../data/gap_fl
 For German, run:
 ```
 python3 main.py --lang DE --eval ../BEC-Pro/BEC-Pro_DE.tsv --out ../data/results
-```
-\
+```  
+  
 
 
 
